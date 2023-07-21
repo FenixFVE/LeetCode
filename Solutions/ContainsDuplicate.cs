@@ -38,7 +38,7 @@ public partial class Solution
         if (expected1 == actual1 && expected2 == actual2) 
         {
             Console.WriteLine(name + ": Ok");
-            return false;
+            return true;
         }
         else
         {
