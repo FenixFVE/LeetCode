@@ -9,6 +9,7 @@ public partial class Solution
         =>  S.TestFindDisappearedNumbers() 
         && S.TestMissingNumber() 
         && S.TestContainsDuplicate()
-        && S.TestSingleNumber();
+        && S.TestSingleNumber()
+        && S.TestClimbStairs();
 
 }
