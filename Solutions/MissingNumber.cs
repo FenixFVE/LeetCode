@@ -24,7 +24,7 @@ public partial class Solution
         // Assert
         if (actual1 == expected1 && actual2 == expected2)
         {
-            Console.WriteLine(name + ": Ok");
+            Console.WriteLine(name + ": OK");
             return true;
         }
         else

@@ -30,9 +30,9 @@ public partial class Solution
         var actual1 = solution.FindDisappearedNumbers(nums1);
         var actual2 = solution.FindDisappearedNumbers(nums2);
         // Assert
-        if (Solution.Equals(expected1, actual1) && Solution.Equals(expected2, actual2))
+        if (expected1.SequenceEqual(actual1) && expected2.SequenceEqual(actual2))
         {
-            Console.WriteLine(name + ": Ok");
+            Console.WriteLine(name + ": OK");
             return true;
         }
         else
