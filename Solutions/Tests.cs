@@ -11,7 +11,8 @@ public partial class Solution
         && S.TestContainsDuplicate()
         && S.TestSingleNumber()
         && S.TestClimbStairs()
-        && S.TestMaxProfit();
+        && S.TestMaxProfit()
+        && S.TestNumArray();
 
     public static void PrintList<T>(IEnumerable<T> list) {
         foreach (T item in list) {
