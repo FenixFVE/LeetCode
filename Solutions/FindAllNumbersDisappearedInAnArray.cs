@@ -20,7 +20,7 @@ public partial class Solution
     public static bool TestFindDisappearedNumbers() 
     {
         // Arrange
-        var name = "Find Disappeared Numbers";
+        var name = "Find all numbers disappeared in an array";
         var solution = new Solution();
         var nums1 = new int[] {4,3,2,7,8,2,3,1};
         var nums2 = new int[] {1,1};

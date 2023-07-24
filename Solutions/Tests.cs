@@ -10,6 +10,13 @@ public partial class Solution
         && S.TestMissingNumber() 
         && S.TestContainsDuplicate()
         && S.TestSingleNumber()
-        && S.TestClimbStairs();
+        && S.TestClimbStairs()
+        && S.TestMaxProfit();
 
+    public static void PrintList<T>(IEnumerable<T> list) {
+        foreach (T item in list) {
+            Console.Write($"{item} ");
+        }
+        Console.WriteLine();
+    }
 }

@@ -12,7 +12,7 @@ public partial class Solution
     public static bool TestMissingNumber()
     {
         // Arrange
-        var name = "Missing Number";
+        var name = "Missing number";
         var solution = new Solution();
         var nums1 = new int[] { 3, 0, 1 };
         var nums2 = new int[] { 9, 6, 4, 2 , 3, 5, 7, 0, 1 };

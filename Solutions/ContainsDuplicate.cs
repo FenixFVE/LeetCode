@@ -25,7 +25,7 @@ public partial class Solution
     public static bool TestContainsDuplicate() 
     {
         // Arrange
-        var name = "Contais Duplicate";
+        var name = "Contais duplicate";
         var solution = new Solution();
         var numbers1 = new int[] { 1, 2, 3 };
         var numbers2 = new int[] { 1, 2, 3, 1 };

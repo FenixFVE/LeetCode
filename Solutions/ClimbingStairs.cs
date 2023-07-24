@@ -25,7 +25,7 @@ public partial class Solution
 
     public static bool TestClimbStairs() {
         // Arrange
-        var name = "Climb Stairs";
+        var name = "Climb stairs";
         var solution = new Solution();
         var n1 = 2;
         var n2 = 3;
