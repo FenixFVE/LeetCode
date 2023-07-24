@@ -12,7 +12,8 @@ public partial class Solution
         && S.TestSingleNumber()
         && S.TestClimbStairs()
         && S.TestMaxProfit()
-        && S.TestNumArray();
+        && S.TestNumArray()
+        && S.TestCountBits();
 
     public static void PrintList<T>(IEnumerable<T> list) {
         foreach (T item in list) {
